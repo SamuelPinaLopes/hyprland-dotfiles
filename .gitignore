@@ -1,6 +1,5 @@
 .env
-log*
-*log
-note.md
-notes.md
+log-*
+*-log
 add.md
+note-*.md
