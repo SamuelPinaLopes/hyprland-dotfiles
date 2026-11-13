@@ -36,13 +36,13 @@ hl.curve(
     "easy",     {type = "spring", mass = 1.1, stiffness = 240.50, damping = 17.20}
 )
 hl.curve(
-    "bounceIt", {type = "spring", mass = 0.78, stiffness = 170.80, damping = 19.31}
+    "bounceIt", {type = "spring", mass = 0.78, stiffness = 170.80, damping = 19.50}
 )
 hl.curve(
     "kick",     {type = "spring", mass = 0.70, stiffness = 300, damping = 28.94} -- hits harder
 )
 hl.curve(
-    "comeHere", {type = "spring", mass = 0.97, stiffness = 109, damping = 18.03}
+    "comeHere", {type = "spring", mass = 0.87, stiffness = 180, damping = 23.97}
 )
 hl.curve(
     "punch",    {type = "spring", mass = 0.93, stiffness = 150, damping = 19.80} -- hits kinda soft
