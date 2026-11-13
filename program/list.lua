@@ -6,9 +6,9 @@ return {
     
     terminal        = "kitty",
     filemanager     = "thunar",
-    browser         = "zen-browser",
-    browser2        = "brave",
-    browser3        = "firefox",
+    zen             = "zen-browser",
+    brave           = "brave",
+    firefox         = "firefox",
     menu            = "wofi",
 
 }
