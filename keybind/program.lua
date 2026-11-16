@@ -5,9 +5,9 @@ local program   = require("program.list")
 hl.bind( ky.key.alt .. "+" .. ky.key.shift .. "+" .. "T", hl.dsp.exec_cmd( tostring(program.terminal) ) )
 
 -- browser
-hl.bind( ky.key.alt .. "+" .. "B",                        hl.dsp.exec_cmd( tostring(program.browser ) ) )
-hl.bind( ky.key.alt .. "+" .. ky.key.shift .. "+" .. "B", hl.dsp.exec_cmd( tostring(program.browser2) ) )
-hl.bind( ky.key.alt .. "+" .. ky.key.shift .. "+" .. "F", hl.dsp.exec_cmd( tostring(program.browser3) ) )
+hl.bind( ky.key.alt .. "+" .. "B",                        hl.dsp.exec_cmd( tostring(program.zen) ) )
+hl.bind( ky.key.alt .. "+" .. ky.key.shift .. "+" .. "B", hl.dsp.exec_cmd( tostring(program.brave) ) )
+hl.bind( ky.key.alt .. "+" .. ky.key.shift .. "+" .. "F", hl.dsp.exec_cmd( tostring(program.firefox) ) )
 
 -- file manager
 hl.bind( ky.key.alt .. "+" .. "E", hl.dsp.exec_cmd(program.filemanager))
